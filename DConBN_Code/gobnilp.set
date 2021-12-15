@@ -1,0 +1,11 @@
+# running time
+# [type: int, range: [1,2], default: 1]
+limits/time = 2
+
+# default clock type (1: CPU user seconds, 2: wall clock time)
+# [type: int, range: [1,2], default: 1]
+timing/clocktype = 2
+
+display/nnodes/active = 1
+display/nodesleft/active = 1
+gobnilp/verblevelsetscols = False

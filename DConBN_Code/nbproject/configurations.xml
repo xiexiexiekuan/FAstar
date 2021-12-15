@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f6"
+                     displayName="best_score_calculators"
+                     projectFiles="true">
+        <itemPath>best_score_calculator.h</itemPath>
+        <itemPath>best_score_creator.h</itemPath>
+        <itemPath>sparse_parent_bitwise.h</itemPath>
+        <itemPath>sparse_parent_list.h</itemPath>
+        <itemPath>sparse_parent_tree.h</itemPath>
+        <itemPath>sparse_tree_node.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="datastructures" projectFiles="true">
+        <itemPath>bayesian_network.h</itemPath>
+        <itemPath>bitset.h</itemPath>
+        <itemPath>dynamic_bitset_hash.h</itemPath>
+        <itemPath>priority_queue-inl.h</itemPath>
+        <itemPath>priority_queue.h</itemPath>
+        <itemPath>record.h</itemPath>
+        <itemPath>record_file.h</itemPath>
+        <itemPath>tarjans_algorithm.h</itemPath>
+        <itemPath>variable.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="dfs" projectFiles="true">
+        <itemPath>dfs_node.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="fileio" projectFiles="true">
+        <itemPath>hugin_structure_writer.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="heuristics" projectFiles="true">
+        <itemPath>combined_pattern_database.h</itemPath>
+        <itemPath>dynamic_pattern_database.h</itemPath>
+        <itemPath>file_pattern_database.h</itemPath>
+        <itemPath>gobnilp_heuristic.h</itemPath>
+        <itemPath>heuristic.h</itemPath>
+        <itemPath>heuristic_creator.h</itemPath>
+        <itemPath>static_pattern_database.h</itemPath>
+        <itemPath>top_p_constraint.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7"
+                     displayName="markov_network_scoring"
+                     projectFiles="true">
+        <itemPath>markov_network_bdeu_scoring_function.h</itemPath>
+        <itemPath>markov_network_score_calculator.h</itemPath>
+        <itemPath>markov_network_scoring_function.h</itemPath>
+        <itemPath>markov_network_scoring_function_creator.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="scoring" projectFiles="true">
+        <itemPath>ad_node.h</itemPath>
+        <itemPath>ad_tree.h</itemPath>
+        <itemPath>bdeu_scoring_function.h</itemPath>
+        <itemPath>bic_scoring_function.h</itemPath>
+        <itemPath>constraints.h</itemPath>
+        <itemPath>contingency_table_node.h</itemPath>
+        <itemPath>fnml_scoring_function.h</itemPath>
+        <itemPath>log_likelihood_calculator.h</itemPath>
+        <itemPath>score_cache.h</itemPath>
+        <itemPath>score_calculator.h</itemPath>
+        <itemPath>scoring_function.h</itemPath>
+        <itemPath>vary_node.h</itemPath>
+      </logicalFolder>
+      <itemPath>files.h</itemPath>
+      <itemPath>node.h</itemPath>
+      <itemPath>typedefs.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="a_star_internal" projectFiles="true">
+        <itemPath>a_star_internal_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6"
+                     displayName="anytime_window_a_star"
+                     projectFiles="true">
+        <itemPath>anytime_window_a_star_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f9"
+                     displayName="best_score_calculators"
+                     projectFiles="true">
+        <itemPath>sparse_parent_bitwise.cpp</itemPath>
+        <itemPath>sparse_parent_list.cpp</itemPath>
+        <itemPath>sparse_parent_tree.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f10" displayName="bfbnb" projectFiles="true">
+        <itemPath>bfbnb_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="datastructures" projectFiles="true">
+        <itemPath>bayesian_network.cpp</itemPath>
+        <itemPath>priority_queue.cpp</itemPath>
+        <itemPath>tarjans_algorithm.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="dfbnb" projectFiles="true">
+        <itemPath>dfbnb_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f5" displayName="fileio" projectFiles="true">
+        <itemPath>hugin_structure_writer.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f12" displayName="heuristic_evaluator" projectFiles="true">
+        <itemPath>heuristic_evaluator_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f8" displayName="heuristics" projectFiles="true">
+        <itemPath>combined_pattern_database.cpp</itemPath>
+        <itemPath>dynamic_pattern_database.cpp</itemPath>
+        <itemPath>file_pattern_database.cpp</itemPath>
+        <itemPath>static_pattern_database.cpp</itemPath>
+        <itemPath>top_p_constraint.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f11"
+                     displayName="markov_network_scoring"
+                     projectFiles="true">
+        <itemPath>markov_network_bdeu_scoring_function.cpp</itemPath>
+        <itemPath>markov_network_score_calculator.cpp</itemPath>
+        <itemPath>markov_network_scoring_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f13"
+                     displayName="sample_distance_generator"
+                     projectFiles="true">
+        <itemPath>sample_distance_generator_main.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="scoring" projectFiles="true">
+        <itemPath>ad_node.cpp</itemPath>
+        <itemPath>ad_tree.cpp</itemPath>
+        <itemPath>ad_tree_scoring_main.cpp</itemPath>
+        <itemPath>bdeu_scoring_function.cpp</itemPath>
+        <itemPath>bic_scoring_function.cpp</itemPath>
+        <itemPath>fnml_scoring_function.cpp</itemPath>
+        <itemPath>log_likelihood_calculator.cpp</itemPath>
+        <itemPath>score_cache.cpp</itemPath>
+        <itemPath>score_calculator.cpp</itemPath>
+        <itemPath>vary_node.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f7" displayName="sparse_parent_tests" projectFiles="true">
+        <itemPath>sparse_parent_tests_main.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/astar-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/astar</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Callgrind_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native -g</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native -g</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/astar-callgrind</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_dfbnb" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/dfbnb-debug</output>
+          <linkerAddLib>
+            <pElem>/home/bmmalone/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_dfbnb" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/dfbnb</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_score" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/score-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_bitwise.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_list.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_score" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/score</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_bitwise.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_list.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Callgrind_score" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native -g</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native -g</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/score</output>
+          <linkerAddLib>
+            <pElem>/home/bmmalone/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_bitwise.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_list.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_anytime_window_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/anytime_window_astar-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_anytime_window_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/anytime_window_astar</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Callgrind_anytime_window_astar" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native -g</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native -g</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/anytime_window_astar</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_sparse_parent_tests" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sparse_parent_tests-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_sparse_parent_tests" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sparse_parent_tests</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Callgrind_sparse_parent_tests" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native -g</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native -g</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sparse_parent_tests</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_bfbnb" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bfbnb-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_serialization</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_bfbnb" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bfbnb</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_serialization</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Diagnostic_bfbnb_pd_statistics" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <preprocessorList>
+            <Elem>PD_STATISTICS</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>6</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>6</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bfbnb-pd-statistics</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_markov_network_score" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/markov_network_score-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_bitwise.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_list.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_markov_network_score" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/markov_network_score</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lrt</linkerOptionItem>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="combined_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dynamic_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="priority_queue.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_bitwise.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_list.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="static_pattern_database.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_heuristic_evaluator" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/heuristic_evaluator-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug_sample_distance_generator" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sample_distance_generator-debug</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_heuristic_evaluator" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/heuristic_evaluator</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release_sample_distance_generator" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>/home/bmmalone/local/include</pElem>
+          </incDir>
+          <commandLine>-march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <stripSymbols>true</stripSymbols>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native</commandLine>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sample_distance_generator</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Callgrind_bfbnb" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>6</developmentMode>
+          <commandLine>-march=native -g</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <incDir>
+            <pElem>${HOME}/local/include</pElem>
+          </incDir>
+          <commandLine>-std=c++0x -march=native -g</commandLine>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/bfbnb-callgrind</output>
+          <linkerAddLib>
+            <pElem>${HOME}/local/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lboost_timer</linkerOptionItem>
+            <linkerOptionItem>-lboost_program_options</linkerOptionItem>
+            <linkerOptionItem>-lboost_system</linkerOptionItem>
+            <linkerOptionItem>-lboost_chrono</linkerOptionItem>
+            <linkerOptionItem>-lboost_thread</linkerOptionItem>
+            <linkerOptionItem>-lboost_serialization</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="a_star_internal_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="ad_tree_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="anytime_window_a_star_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bdeu_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="bic_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="dfbnb_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="fnml_scoring_function.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="heuristic_evaluator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="log_likelihood_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_bdeu_scoring_function.cpp"
+            ex="true"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="markov_network_score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="markov_network_scoring_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sample_distance_generator_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="score_calculator.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="sparse_parent_tests_main.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+      <item path="vary_node.cpp" ex="true" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

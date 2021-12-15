@@ -1,0 +1,85 @@
+META pss_version = 0.1
+META input_file=asia_s500_v1.csv
+META num_records=500
+META parent_limit=5
+META score_type=bic
+META ess=1
+
+VAR Variable_0
+META arity=2
+META values=0 1 
+-35.608280 
+
+VAR Variable_1
+META arity=2
+META values=1 0 
+-325.617218 Variable_4 Variable_5 
+-329.629883 Variable_4 
+-344.312012 Variable_3 
+-349.104614 
+-343.769775 Variable_5 
+-326.452423 Variable_3 Variable_4 
+-333.628174 Variable_7 
+
+VAR Variable_2
+META arity=2
+META values=0 1 
+-10.320927 
+
+VAR Variable_3
+META arity=2
+META values=0 1 
+-109.028816 Variable_1 
+-113.821419 
+-99.606949 Variable_4 Variable_7 
+-10.598886 Variable_5 
+-47.472305 Variable_1 Variable_6 
+-47.619148 Variable_6 
+-106.412849 Variable_7 
+
+VAR Variable_4
+META arity=2
+META values=0 1 
+-325.567627 Variable_1 
+-345.042358 
+-212.332779 Variable_1 Variable_7 
+-209.047012 Variable_6 Variable_7 
+-206.826920 Variable_5 Variable_7 
+-206.766617 Variable_3 Variable_7 
+-213.572525 Variable_7 
+
+VAR Variable_5
+META arity=2
+META values=0 1 
+-116.590950 
+-13.368417 Variable_3 
+-103.604019 Variable_4 Variable_7 
+-12.429216 Variable_2 Variable_3 
+-110.349617 Variable_7 
+-47.337166 Variable_6 
+-46.413223 Variable_1 Variable_6 
+-111.256111 Variable_1 
+
+VAR Variable_6
+META arity=2
+META values=1 0 
+-159.080093 Variable_4 Variable_7 
+-96.395027 Variable_5 
+-163.605728 Variable_7 
+-99.446541 Variable_3 
+-165.648804 
+
+VAR Variable_7
+META arity=2
+META values=0 1 
+-203.634659 Variable_4 Variable_6 
+-196.902115 Variable_4 Variable_5 
+-195.568863 Variable_3 Variable_4 
+-327.947906 Variable_1 Variable_3 
+-342.141602 Variable_6 
+-337.943359 Variable_5 
+-212.714859 Variable_4 
+-336.776123 Variable_3 
+-328.708252 Variable_1 
+-344.184692 
+

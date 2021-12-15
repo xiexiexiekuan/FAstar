@@ -1,0 +1,10 @@
+syntax: glob
+
+obj
+bin
+build
+dist
+input
+*cpython-32.pyc
+*~
+temp*

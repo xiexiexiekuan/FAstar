@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/project_pm.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/hepatitis.pds.txt</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/hepatitis.pds.txt</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+          <variable name="PATH" value="/home/bmmalone/local/bin:$PATH"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/malone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Callgrind_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_dfbnb" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_dfbnb" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_score" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss -s fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss .f fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss -f fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/iris. -f BDeu</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/iris.discretized.csv input/pss/iris.bdeu.1.pss -f BDeu -s</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/Hepar_100.csv input/pss/Hepar_100.bic.pss -s</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/Hepar_500.csv input/pss/Hepar_500.bic.pss -s</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/csv/Hepar_500.csv input/pss/Hepar_500.bic.pss -s</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_score" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Callgrind_score" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_anytime_window_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/scores/Zoo.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/BayesianNetworks/inputs/data/Parkinsons/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/BayesianNetworks/inputs/data/Adult/adult.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/Dropbox/BayesianNetworks/input/data/Adult/adult.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Adult.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Autos.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/LungCancer.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" pss/weka_30-100-2-1_2000-1.bic-3.pss -e file -a clusterings/weka_30-100-2-1_2000-1.bic-3.top1.metis.clustering</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" pss/weka_30-100-2-1_2000-1.bic-3.pss -e file -a clusterings/weka_30-100-2-1_2000-1.bic-3.top1.metis.clustering</runcommand>
+        <rundir>/home/bmmalone/bin/bn-data</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_anytime_window_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" </runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Callgrind_anytime_window_astar" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_sparse_parent_tests" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_sparse_parent_tests" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Callgrind_sparse_parent_tests" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_bfbnb" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/scores/zoo.bdeu-1-2.pss -n zoo.bdeu-1-2.net -e dynamic -a 2</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/scores/zoo.bdeu-1-2.pss -n zoo.bdeu-1-2.net -e dynamic_optimal -a 2</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/scores/zoo.bdeu-1-2.pss -n zoo.bdeu-1-2.net -e dynamic_optimal -a 3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/scores/zoo.bdeu-1-2.pss -n zoo.bdeu-1-2.net -e dynamic -a 3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.csv.bic.pss -m 1E4</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.csv.bic.pss -m 1E3</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Parkinsons.csv.bic.pss -m 1E3 -u 1600</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/pss/Parkinsons.csv.bic.pss -m 1E3 -u 1600</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+          <variable name="PATH" value="/home/bmmalone/local/bin:$PATH"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_bfbnb" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Diagnostic_bfbnb_pd_statistics" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_markov_network_score" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.BIC.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss -s fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss .f fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/bmmalone/JavaProjects/bayesian-networks/input/csv/bridges.data bridges.fNML.pss -f fNML</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/iris. -f BDeu</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/iris.discretized.csv input/pss/iris.bdeu.1.pss -f BDeu -s</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/csv/iris.discretized.csv input/css/iris.bdeu.1.css</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/csv/iris.discretized.csv input/css/iris.bdeu.1.css</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_markov_network_score" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_heuristic_evaluator" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Zoo.BIC.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/project_pm.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/hepatitis.pds.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss input/hepatitis.pds.txt input/hepatitis.pd_samples</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss input/hepatitis.pds.txt input/hepatitis.pd_samples</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+          <variable name="PATH" value="/home/bmmalone/local/bin:$PATH"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Debug_sample_distance_generator" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/project_pm.pss -e combined -a 2,3,5</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/iris.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss -e file -a input/hepatitis.pds.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss input/hepatitis.pds.txt input/hepatitis.pd_samples</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss input/hepatitis.pd_samples</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" input/pss/Hepatitis.csv.bic.pss input/hepatitis.pd_samples</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/bmmalone/local/lib"/>
+          <variable name="PATH" value="/home/bmmalone/local/bin:$PATH"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_heuristic_evaluator" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/malone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release_sample_distance_generator" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="LD_LIBRARY_PATH" value="/home/malone/local/lib"/>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
